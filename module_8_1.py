@@ -1,9 +1,8 @@
 def add_everything_up(a, b):
     try:
-        type(a) == type(b)
-        print(a + b)
+        return a + b
     except:
-        print(str(a) + str(b))
+        return (str(a) + str(b))
 
 print(add_everything_up(123.456, 'строка'))
 print(add_everything_up('яблоко', 4215))
